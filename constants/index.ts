@@ -1,17 +1,28 @@
 export const headerLinks = [
   {
-    label: 'Home',
-    route: '/',
+    label: 'Sponsor',
+    route: '/Sponser',
   },
   {
-    label: 'Create Event',
-    route: '/events/create',
+    label: 'Submit',
+    route: '/submit',
   },
   {
-    label: 'My Profile',
-    route: '/profile',
+    label: 'Bookmarkt',
+    route: '/events/Bookmark',
   },
+  {
+    label: 'Leaderboard',
+    route: '/Leaderboard',
+  },
+ 
+  {
+    label: 'About',
+    route: '/About',
+  },
+
 ]
+
 
 export const eventDefaultValues = {
   title: '',
